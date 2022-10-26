@@ -2,16 +2,14 @@ import { ReactHTMLElement } from 'react'
 import { A, Li, Ul } from '../styles/GlobalStyle'
 
 export interface Props {
-    link: string
+    link?: string
     label: string | JSX.Element
 }
 
 export default function ListItem(props: Props) {
     return (
         <Li>
-            <A href={props.link}>
-                {props.label}
-            </A>
+            {props.link ? <A href={props.link}>{props.label}</A> : props.label }     
         </Li>
     )
 }
