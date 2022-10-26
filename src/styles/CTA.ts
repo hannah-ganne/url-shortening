@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import background from '../assets/bg-boost-mobile.svg'
+import desktopBack from '../assets/bg-boost-desktop.svg'
 
 export const CTAContainer = styled.section`
     padding: 6rem 1.5rem;
@@ -16,5 +17,15 @@ export const CTAContainer = styled.section`
 
     & button {
         margin-top: 1rem;
+    }
+
+    @media(min-width: 1440px) {
+        background-image: url(${desktopBack});
+        background-repeat: no-repeat;
+        padding: 3rem;
+
+        h2 {
+            font-size: 2.3rem;
+        }
     }
 `

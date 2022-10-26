@@ -19,5 +19,35 @@ export const FooterContainer = styled.footer`
             margin: 0 0.6rem;
         }
     }
+
+    @media(min-width: 1440px) {
+        flex-direction: row;
+        padding: 4rem 5rem;
+        align-items: flex-start;
+
+        img {
+            margin-right: 17rem;
+        }
+
+        .footer-list {
+            flex-direction: row;
+            align-items: flex-start;
+            margin-top: 0;
+
+            ul {
+                margin-right: 4rem;
+                text-align: left;
+
+                h3 {
+                    margin-top: 0;
+                }
+
+                &:last-of-type {
+                    margin: 0;
+                }
+            }
+        }
+
+    }
 `
 
