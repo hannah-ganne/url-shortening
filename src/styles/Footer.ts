@@ -7,7 +7,7 @@ export const FooterContainer = styled.footer`
     flex-direction: column;
     align-items: center;
 
-    & img {
+    & > img {
         filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(148deg) brightness(102%) contrast(105%);
     }
 
@@ -15,9 +15,8 @@ export const FooterContainer = styled.footer`
         margin-top: 2rem;
 
         & img {
-            filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(148deg) brightness(102%) contrast(105%);
-            width: 1.5rem;
-            margin: 0 0.5rem;
+            width: 1.3rem;
+            margin: 0 0.6rem;
         }
     }
 `
