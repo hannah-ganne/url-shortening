@@ -11,21 +11,23 @@ export default function Advantages() {
                 Advanced Statistics
             </h2>
             <p>Track how your links are performing across the web with our advanced statistics dashboard.</p>
-            <IconCard
-                title="Brand Recognition"
-                description="Boost your brand recognition with each click. Generic links don't mean a thing. Branded links help instill confidence in your content."
-                icon={recognition}
-            />
-            <IconCard
-                title="Detailed Records"
-                description="Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions."
-                icon={records}
-            />
-            <IconCard
-                title="Fully Customizable"
-                description="Improve brand awareness and content discoverability through customizable links, supercharging audience engagement."
-                icon={customizable}
-            />
+            <div className="card-container">
+                <IconCard
+                    title="Brand Recognition"
+                    description="Boost your brand recognition with each click. Generic links don't mean a thing. Branded links help instill confidence in your content."
+                    icon={recognition}
+                />
+                <IconCard
+                    title="Detailed Records"
+                    description="Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions."
+                    icon={records}
+                />
+                <IconCard
+                    title="Fully Customizable"
+                    description="Improve brand awareness and content discoverability through customizable links, supercharging audience engagement."
+                    icon={customizable}
+                />
+            </div>
             <div className="cyan-line" />
         </Section>
     )
