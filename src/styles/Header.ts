@@ -6,7 +6,7 @@ export const HeaderContainer = styled.header`
     align-items: center;
     padding: 2rem 1.5rem;
 
-    & button {
+    & > button {
         border: none;
         background-color: transparent;
         cursor: pointer;
