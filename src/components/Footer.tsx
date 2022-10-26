@@ -12,7 +12,7 @@ export default function Footer() {
     return (
         <FooterContainer>
             <img src={logo} alt="logo of Shortly" />
-            <Ul direction="column">
+            <Ul direction="column" className="footer-list">
                 <NavList
                     title="Features"
                     data={[
