@@ -10,8 +10,6 @@ This is a solution to the [Shortly URL shortening API Challenge challenge on Fro
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Useful resources](#useful-resources)
 
 ## Overview
 
@@ -33,6 +31,8 @@ From the analysis to the deployment of the project, it took about 8h20
 
 ### Screenshot
 
+<img width="1438" alt="Screenshot 2022-10-27 at 11 02 26" src="https://user-images.githubusercontent.com/48105337/198242991-a0a419bc-981c-448c-9279-e2621e243988.png">
+<img width="348" alt="Screenshot 2022-10-27 at 11 03 06" src="https://user-images.githubusercontent.com/48105337/198243010-8dc78f78-7c28-48e1-8945-f6a25dd05966.png">
 
 ### Links
 
@@ -45,8 +45,3 @@ From the analysis to the deployment of the project, it took about 8h20
 - [React](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/) 
 - [Styled Components](https://styled-components.com/)
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
