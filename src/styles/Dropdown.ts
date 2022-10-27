@@ -15,6 +15,7 @@ export const DropdownContainer = styled.nav<{ isOpen: boolean }>`
     position: absolute;
     top: 5rem;
     left: 5%;
+    z-index: 3;
     width: 90%;
     border-radius: 0.5rem;
     padding: 1.2rem 1.3rem 0 1.3rem;
